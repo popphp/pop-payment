@@ -1,14 +1,13 @@
 {
     "name": "popphp/pop-payment",
-    "description": "Pop Payment Component Pop PHP Framework 2",
+    "description": "Pop Payment Component Pop PHP Framework",
     "keywords": [
         "payment",
         "payment gateway",
         "credit card processing",
         "php",
         "pop",
-        "pop php",
-        "pop php 2"
+        "pop php"
     ],
     "homepage": "http://www.popphp.org/",
     "license": "New BSD",
@@ -25,6 +24,11 @@
     "autoload": {
         "psr-4": {
             "Pop\\Payment\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
         }
     }
 }
