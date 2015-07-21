@@ -1,5 +1,5 @@
-Pop Payment Component
-=====================
+pop-payment
+===========
 
 [![Build Status](https://travis-ci.org/popphp/pop-payment.svg?branch=master)](https://travis-ci.org/popphp/pop-payment)
 [![Coverage Status](http://www.popphp.org/cc/coverage.php?comp=pop-payment)](http://www.popphp.org/cc/pop-payment/)
