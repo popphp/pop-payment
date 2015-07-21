@@ -57,9 +57,9 @@ $payment = new Payment(new Authorize('API_LOGIN_ID', 'TRANSACTION_KEY'));
 ### Using the payment object to process a transaction
 
 ```php
-$payment->amount  = 41.51;
-$payment->cardNum = '4111111111111111';
-$payment->expDate = '03/17';
+$payment->amount    = 41.51;
+$payment->cardNum   = '4111111111111111';
+$payment->expDate   = '03/17';
 
 $payment->firstName = 'Test';
 $payment->lastName  = 'Person';
