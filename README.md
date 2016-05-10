@@ -2,11 +2,11 @@ pop-payment
 ===========
 
 [![Build Status](https://travis-ci.org/popphp/pop-payment.svg?branch=master)](https://travis-ci.org/popphp/pop-payment)
-[![Coverage Status](http://www.popphp.org/cc/coverage.php?comp=pop-payment)](http://www.popphp.org/cc/pop-payment/)
+[![Coverage Status](http://cc.popphp.org/coverage.php?comp=pop-payment)](http://cc.popphp.org/pop-payment/)
 
 OVERVIEW
 --------
-`pop-payment` is a component for processing payments via some of the known payment processing gateway 
+`pop-payment` is a component for processing payments via some of the known payment processing gateway
 vendors. It can also be extended to support other shipping vendors and their available APIs. Currently,
 the built-in supported vendors are:
 
@@ -31,7 +31,7 @@ be mapped correctly to the adapter. The main common fields are:
 | firstName       | phone           | shipToState     |
 | lastName        | fax             | shipToZip       |
 | company         | email           | shipToCountry   |
-| address         | shipToFirstName |                 |   
+| address         | shipToFirstName |                 |
 
 `pop-payment` is a component of the [Pop PHP Framework](http://www.popphp.org/).
 
@@ -51,7 +51,7 @@ BASIC USAGE
 use Pop\Payment\Payment;
 use Pop\Payment\Adapter\Authorize;
 
-$payment = new Payment(new Authorize('API_LOGIN_ID', 'TRANSACTION_KEY')); 
+$payment = new Payment(new Authorize('API_LOGIN_ID', 'TRANSACTION_KEY'));
 ```
 
 ### Using the payment object to process a transaction
