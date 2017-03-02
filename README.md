@@ -1,6 +1,10 @@
 pop-payment
 ===========
 
+END OF LIFE
+-----------
+The `pop-payment` component v2.1.0 is now end-of-life and will no longer be maintained.
+
 [![Build Status](https://travis-ci.org/popphp/pop-payment.svg?branch=master)](https://travis-ci.org/popphp/pop-payment)
 [![Coverage Status](http://cc.popphp.org/coverage.php?comp=pop-payment)](http://cc.popphp.org/pop-payment/)
 
